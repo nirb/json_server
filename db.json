@@ -1,18 +1,11 @@
 {
-  "login" : [
+  "posts": [
     {
-      "id":1,
-      "name": "nir",
-      "password": "nir",
-      "image": "https://s3.amazonaws.com/ntclimages/orbitLogo.png",
-      "role": "vet"
-    },
-    {
-      "id":2,
-      "name": "zeus",
-      "password": "zeus",
-      "image": "https://s3.amazonaws.com/ntclimages/orbitBanner3000.png",
-      "role": "vet"
+      "id": 1,
+      "title": "hello"
     }
-  ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }

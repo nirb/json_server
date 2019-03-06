@@ -2,23 +2,7 @@
   "menus": [
     {
       "user": "vet",
-      "sideMenu": [
-        {
-          "text": "Login",
-          "view": "login",
-          "icon": "face"
-        },
-        {
-          "text": "Create farm",
-          "view": "grid",
-          "icon": "border_color"
-        },
-        {
-          "text": "IOT",
-          "view": "iot",
-          "icon": "wifi"
-        }
-      ]
+      "sideMenu": "seide"
     }
   ]
 }

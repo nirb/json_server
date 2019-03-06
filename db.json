@@ -1,8 +1,8 @@
 {
-  "nir": [
+  "nir" : [
     {
-      "user": "vet",
-      "sideMenu": "seide"
+      "user" : "vet",
+      "sideMenu" : "seide"
     }
   ]
 }

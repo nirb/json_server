@@ -1,38 +1,21 @@
 {
   "login": [
-    {
-      "name": "nir",
-      "password": "nir",
-      "image": "https://s3.amazonaws.com/ntclimages/orbitLogo.png",
-      "role": "vet"
-    },
-    {
-      "name": "zeus",
-      "password": "zeus",
-      "image": "https://s3.amazonaws.com/ntclimages/orbitBanner3000.png",
-      "role": "vet"
-    }
+    {"name": "nir","password": "nir","image": "https://s3.amazonaws.com/ntclimages/orbitLogo.png","role": "vet"},
+    {"name": "zeus","password": "zeus","image": "https://s3.amazonaws.com/ntclimages/orbitBanner3000.png","role": "vet"}
   ],
   "menus": [
-    {
-      "user": "vet",
+    {"user": "vet",
       "sideMenu": [
-        {
-          "text": "Login",
-          "view": "login",
-          "icon": "face"
-        },
-        {
-          "text": "Create farm",
-          "view": "grid",
-          "icon": "border_color"
-        },
-        {
-          "text": "IOT",
-          "view": "iot",
-          "icon": "wifi"
-        }
+        {"text": "Create farm","view": "grid","icon": "border_color"},
+        {"text": "IOT","view": "iot","icon": "wifi"}
+      ],
+      "headerMenu":[
+        {"text": "Login","view": "login","icon": "face"},
+        {"text": "Settings","view": "settings","icon": "settings"}
       ]
     }
-  ]
+  ],
+  "images":{
+    "houseBg" : "https://s3-us-west-2.amazonaws.com/helper-res/chicken.png"
+  }
 }
